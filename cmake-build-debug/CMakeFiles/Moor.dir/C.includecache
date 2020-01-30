@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/twiggy/CLion/Moor/main.c
+moor.h
+/Users/twiggy/CLion/Moor/moor.h
+
+/Users/twiggy/CLion/Moor/moor.c
+moor.h
+/Users/twiggy/CLion/Moor/moor.h
+
+/Users/twiggy/CLion/Moor/moor.h
+stdio.h
+-
+string.h
+-
+
